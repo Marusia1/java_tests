@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="LoginTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-11T09:34:42" hostname="DESKTOP-CO5G9GP" time="0.093">
+<testsuite name="AutorizationTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-11T16:26:06" hostname="DESKTOP-CO5G9GP" time="0.119">
   <properties/>
-  <testcase name="login" classname="LoginTest" time="0.093">
+  <testcase name="testGoogleSearch" classname="AutorizationTest" time="0.119">
     <failure message="org.openqa.selenium.WebDriverException: Unsupported operating system.  Could not locate Chrome.  Set webdriver.chrome.bin&#10;Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'&#10;System info: host: 'DESKTOP-CO5G9GP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'&#10;Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Unsupported operating system.  Could not locate Chrome.  Set webdriver.chrome.bin
 Build info: version: '4.0.0-alpha-5', revision: 'b3a0d621cc'
 System info: host: 'DESKTOP-CO5G9GP', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
@@ -11,7 +11,7 @@ Driver info: driver.version: ChromeDriver
 	at org.openqa.selenium.chrome.ChromeDriver.startClient(ChromeDriver.java:96)
 	at org.openqa.selenium.chrome.ChromeDriver.init(ChromeDriver.java:52)
 	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:44)
-	at LoginTest.setUp(LoginTest.java:34)
+	at AutorizationTest.setUp(AutorizationTest.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -62,7 +62,7 @@ Driver info: driver.version: ChromeDriver
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at LoginTest.tearDown(LoginTest.java:40)
+	at AutorizationTest.tearDown(AutorizationTest.java:39)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
